@@ -43,3 +43,8 @@ body {
     background-color: coral;
     padding: 5px;
 }
+
+#item-list > ul > li {
+  display: flex;
+  flex-direction: column;
+}
