@@ -3,7 +3,7 @@ const itemsContainer = document.getElementById('items')
 const itemList = document.getElementById(`item-list`)
 const cartQty = document.getElementById('cart-qty')
 const cartTotal = document.getElementById('cart-total')
-itemList.innerHTML = '<li> Hello World</li>'
+itemList.innerHTML = '<li>Your cart is empty</li>'
 
 // the length of our data determines how many times this loop goes around
 for (let i=0; i<data.length; ++i) {
@@ -184,4 +184,4 @@ function updateCart(name, qty) {
 // removeItem('Apple', 1)
 // removeItem('Frisbee')
 
-showItems()
+// showItems()

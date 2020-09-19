@@ -3,6 +3,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     margin: 0;
+    background-color: darkgrey;
 }
 
 .page-header {
@@ -44,7 +45,13 @@ body {
     padding: 5px;
 }
 
-#item-list > ul > li {
-  display: flex;
-  flex-direction: column;
+#item-list {
+  list-style-type: none;
+}
+main {
+  background-color: cornflowerblue;
+}
+
+footer {
+  background-color: violet;
 }
